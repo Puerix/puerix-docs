@@ -14,6 +14,11 @@ A integracao Web usa sessao criada pelo parceiro e um redirecionamento para o fl
 
 ## Passo a passo
 
+Antes de iniciar, obtenha suas credenciais no painel em `https://app.puerix.com/dashboard`:
+
+- `tenant_id`: exibido no bloco **Tenant ID**.
+- `apiKey`: exibida no bloco **Chave de API**.
+
 ## 1. Criar sessao no backend
 
 Recomendacao: nunca criar sessao direto no frontend. Sempre no backend do parceiro.

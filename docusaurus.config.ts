@@ -46,6 +46,12 @@ const config: Config = {
       },
       items: [
         {
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Home",
+        },
+        {
           type: "docSidebar",
           sidebarId: "integrationSidebar",
           position: "left",

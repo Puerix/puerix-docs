@@ -6,7 +6,8 @@ A integracao via API e indicada para parceiros que querem controlar o fluxo no p
 
 ## 1. Pre-requisitos
 
-- API key do tenant.
+- `apiKey` do tenant.
+- `tenant_id` da conta.
 - URL base da API: `https://api.puerix.com/v1` (em dev, ajuste para seu ambiente).
 - Header obrigatorio em todas as chamadas de sessao:
 
@@ -14,6 +15,12 @@ A integracao via API e indicada para parceiros que querem controlar o fluxo no p
 X-API-Key: SUA_API_KEY
 Content-Type: application/json
 ```
+
+Como obter credenciais:
+
+1. Entre no painel em `https://app.puerix.com/dashboard`.
+2. Copie o `tenant_id` no bloco **Tenant ID**.
+3. Copie a `apiKey` no bloco **Chave de API**.
 
 ## 2. Criar sessao
 

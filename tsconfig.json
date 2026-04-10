@@ -1,0 +1,7 @@
+{
+    "extends": "@docusaurus/module-type-aliases",
+    "compilerOptions": {
+        "baseUrl": "."
+    },
+    "exclude": ["build", "node_modules"]
+}

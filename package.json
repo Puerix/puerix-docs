@@ -3,9 +3,12 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "start": "NODE_OPTIONS=\"--require ./scripts/patch-resolve-weak.cjs\" docusaurus start",
-        "build": "NODE_OPTIONS=\"--require ./scripts/patch-resolve-weak.cjs\" docusaurus build",
-        "serve": "NODE_OPTIONS=\"--require ./scripts/patch-resolve-weak.cjs\" docusaurus serve",
+        "prestart": "node ./scripts/patch-docusaurus-progress-plugin.cjs",
+        "start": "docusaurus start",
+        "prebuild": "node ./scripts/patch-docusaurus-progress-plugin.cjs",
+        "build": "docusaurus build",
+        "preserve": "node ./scripts/patch-docusaurus-progress-plugin.cjs",
+        "serve": "docusaurus serve",
         "clear": "docusaurus clear"
     },
     "dependencies": {
@@ -20,7 +23,5 @@
         "@docusaurus/module-type-aliases": "3.8.1",
         "typescript": "^5.8.3"
     },
-    "overrides": {
-        "webpackbar": "6.0.1"
-    }
+    "overrides": {}
 }

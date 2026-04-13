@@ -18,7 +18,7 @@ Content-Type: application/json
 
 Como obter credenciais:
 
-1. Entre no painel em `https://app.puerix.com/dashboard`.
+1. Entre no painel em `https://www.puerix.com/dashboard`.
 2. Copie o `tenant_id` no bloco **Tenant ID**.
 3. Copie a `apiKey` no bloco **Chave de API**.
 

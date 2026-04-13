@@ -14,7 +14,7 @@ A integracao Web usa sessao criada pelo parceiro e um redirecionamento para o fl
 
 ## Passo a passo
 
-Antes de iniciar, obtenha suas credenciais no painel em `https://app.puerix.com/dashboard`:
+Antes de iniciar, obtenha suas credenciais no painel em `https://www.puerix.com/dashboard`:
 
 - `tenant_id`: exibido no bloco **Tenant ID**.
 - `apiKey`: exibida no bloco **Chave de API**.
@@ -45,7 +45,7 @@ Campos normalmente usados no fluxo:
 Exemplo ilustrativo:
 
 ```text
-https://verify.puerix.com/start?tenantId=TENANT_ID&sessionId=SESSION_ID&signature=SIGNATURE
+https://app.puerix.com/start?tenantId=TENANT_ID&sessionId=SESSION_ID&signature=SIGNATURE
 ```
 
 ## 3. Tratar retorno no parceiro

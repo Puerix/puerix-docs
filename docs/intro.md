@@ -17,7 +17,7 @@ Antes de integrar, garanta que voce ja possui:
 
 ## Como obter tenant_id e apiKey
 
-1. Acesse o painel da Puerix em `https://app.puerix.com/dashboard`.
+1. Acesse o painel da Puerix em `https://www.puerix.com/dashboard`.
 2. No bloco **Tenant ID**, copie o valor de `tenant_id`.
 3. No bloco **Chave de API**, copie sua `apiKey` ativa.
 4. Se necessario, gere uma nova chave no mesmo painel.

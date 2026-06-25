@@ -9,7 +9,15 @@ const sidebars: SidebarsConfig = {
       items: [
         "integracao/api",
         "integracao/web",
-        "integracao/sdk",
+        {
+          type: "category",
+          label: "SDK",
+          items: [
+            "integracao/sdk/index",
+            "integracao/sdk/android",
+            "integracao/sdk/ios",
+          ],
+        },
         "integracao/webhook",
       ],
     },
